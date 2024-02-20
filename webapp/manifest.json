@@ -109,6 +109,20 @@
       "config": {},
       "routes": [],
       "targets": {}
+    },
+    "extends": {
+      "extensions": {
+        "sap.ui.controllerExtensions": {
+          "sap.suite.ui.generic.template.ObjectPage.view.Details": {
+            "controllerName": "com.moovi.zui5.usuario.base.conhecimento.ext.controller.ObjectPageExt",
+            "sap.ui.generic.app": {
+              "BaseConhecimentoUser": {
+                "EntitySet": "BaseConhecimentoUser"
+              }
+            }
+          }
+        }
+      }
     }
   },
   "sap.ui.generic.app": {
